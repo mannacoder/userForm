@@ -11,6 +11,7 @@ import DashboardStyles from "./Dashboard.module.css";
 
 const Dashboard = () => {
   const dispatch = useDispatch();
+  const currentUserData = useSelector((state) => state.users.currentUser);
 
   const props = {
     name: "file",
@@ -32,7 +33,6 @@ const Dashboard = () => {
     },
   };
 
-  const currentUserData = useSelector((state) => state.users.currentUser);
   return (
     <Layout className={DashboardStyles.dashboard}>
       <Header className={DashboardStyles.header}>

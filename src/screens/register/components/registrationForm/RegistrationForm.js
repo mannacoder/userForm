@@ -63,6 +63,10 @@ const RegistrationForm = ({ onFinish }) => {
             required: true,
             message: "Please input your password!",
           },
+          {
+            min: 5,
+            message: "Password must be minimum 5 characters",
+          },
         ]}
         hasFeedback
       >
@@ -116,6 +120,11 @@ const RegistrationForm = ({ onFinish }) => {
           {
             required: true,
             message: "Please input your phone number!",
+          },
+          {
+            min: 10,
+            max: 10,
+            message: "Input valid phone number!",
           },
         ]}
       >
