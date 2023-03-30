@@ -1,0 +1,40 @@
+.dashboard {
+  min-height: 100vh;
+}
+.header {
+  color: #fff;
+  font-size: 2rem;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #00162a;
+  color: #fff;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem;
+}
+.description {
+  padding-top: 4rem;
+}
+.userScreen {
+  min-height: 80vh;
+}
+.imageSection {
+  display: flex;
+  align-items: flex-end;
+}
+.userImage {
+  object-fit: contain;
+}

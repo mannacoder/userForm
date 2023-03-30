@@ -1,0 +1,11 @@
+.login_form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem 2rem 1rem;
+}
+
+.login_form_button {
+  width: 100%;
+}

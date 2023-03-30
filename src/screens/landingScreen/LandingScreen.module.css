@@ -1,0 +1,21 @@
+.landing_container {
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  padding: 2rem;
+}
+.reg_login_buttons {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+.reg_button {
+  margin: 1rem;
+}
+.login_button {
+  margin: 1rem;
+}
